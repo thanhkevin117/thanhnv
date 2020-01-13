@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6b009b095d454328ac757f64fe85ca84" Name="Diagram1">
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.AnhSanPham" Width="1.5" PointX="8.25" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.CapNhatDH" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.ChiTietDonHang" Width="1.5" PointX="8.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.DonHang" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.KhachHang" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.KhuyenMai" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.LoaiHang" Width="1.5" PointX="3.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.NhanVien" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.SanPham" Width="1.5" PointX="6" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.sysdiagram" Width="1.5" PointX="5.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.TrangThai" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.XuLySanPham" Width="1.5" PointX="8.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSHOPTHOITRANGModel.View_DonHangByMaDH" Width="1.5" PointX="10.75" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="QLSHOPTHOITRANGModel.FK_ASP_SP" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSHOPTHOITRANGModel.FK_CNDH_DH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSHOPTHOITRANGModel.FK_CNDH_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSHOPTHOITRANGModel.FK_CTDH_DH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSHOPTHOITRANGModel.FK_CTDH_SP" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSHOPTHOITRANGModel.FK_DH_GG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSHOPTHOITRANGModel.FK_DH_KH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSHOPTHOITRANGModel.FK_DH_TT" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSHOPTHOITRANGModel.FK_SP_LH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSHOPTHOITRANGModel.FK_XLSP_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSHOPTHOITRANGModel.FK_XLSP_SP" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
